@@ -2,4 +2,4 @@
 
 The Secret of Success
 
-Live : kalpanaammu.github.io/design/
+[Live preview](kalpanaammu.github.io/design/)
