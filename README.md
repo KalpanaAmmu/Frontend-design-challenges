@@ -5,4 +5,4 @@
 Thanks for checking out my all front-end coding challenges
 from Frontend Design Challenges.I hope you will satify with the above Design
 
-To view all the challenges click 👉[Live preview](https://kalpanaammu.github.io/design/)
+To view all the challenges click 👉[Live preview](https://kalpanaammu.github.io/design)
