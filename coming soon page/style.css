@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100wh;
+    min-height: 100vh;
+}
+.wapper{
+    display: flex;
+    overflow: hidden;
+}
+.leftside{
+flex: 0 0 60%;
+    width: 60%;
+    
+    float: left;
+    animation-name: leftside;
+    animation-delay: .2s;
+    animation-duration: 2s;
+
+}
+.rightside{
+    flex:1;
+    float: right;
+    width: 40%;
+    background-image: url(./images/hero-desktop.jpg);
+    height: 100vh;
+    animation-name: rightside;
+    animation-delay: .2s;
+    animation-duration: 2s;
+}
+.centerpart{
+    margin: 40px 150px;
+    padding: 2rem;
+    height: 75vh;
+    
+}
+.image{
+    width: 8rem;
+    height: 3.5rem;
+}
+h1{
+    text-transform: uppercase;
+    line-height: 60px;
+    letter-spacing: 10px;
+    padding: 30px 2px;
+    font-size: 3rem;
+}
+span{
+    font-weight: 70;
+    color: rgb(197, 172, 172);
+}
+h2{
+    font-weight: 60;
+    color: rgb(197, 172, 172);
+    font-size:1.2rem ;
+    line-height: 25px;
+
+}
+.form{
+    padding: 2rem;
+}
+input{
+    padding: 1rem 1.2rem;
+    width: 70%;
+    border-radius: 100px;
+    border: 1px solid  rgb(163, 126, 126);;
+}
+
+
+@keyframes rightside{
+  0% {
+      opacity: 0;
+      transform: translateX(100px);
+  }
+}
+
+@keyframes leftside{
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+  }
+  @media only screen and(max-width:1082px){
+
+h2{
+    font-size:.9rem ;
+    line-height: 30px;
+    background-color: black;
+}
+  }
+   @media only screen and (max-width: 950px){
+
+    .leftside{
+        width: 50%;
+    }
+    .rightside{
+        width: 50%;
+    }
+    .image{
+        width: 100%;
+    }
+    .centerpart{
+        margin: 30px 30px;
+        padding: 0;
+    
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .image{
+        width: 7rem;
+        height: 5rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    input{
+        width: 70%;
+    }    
+}
+
+@media only screen and (max-width: 500px){
+.wapper{
+    width: 100%;
+    overflow: hidden;
+}
+.leftside{
+    width: 100%;
+    padding: 0rem;
+}
+.image{
+    
+    width: 14rem;
+    height: 9rem;
+    padding: 3rem;
+}
+.div{
+    background-image: url(./images/hero-desktop.jpg);
+       width: 100%;
+       height: 40vh;
+       align-items: center;
+       padding: 0;
+       background-position: top;
+       background-size: cover;
+}
+.rightside{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
