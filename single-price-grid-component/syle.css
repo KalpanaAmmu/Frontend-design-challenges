@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.wapper{
+    margin: 4rem auto;
+    min-height:30vh ;
+    max-width: 40%;    
+    box-shadow: 0 1rem 2rem black;
+}
+.topside{
+    background: white;
+    padding: 1.4rem;
+    text-align: left;
+    
+}
+.join{
+    color: rgb(86, 120, 165);
+    font-size: 1.3rem;
+    padding: .6rem;
+
+}
+.text{
+    color: burlywood;
+    font-size: 1rem;
+    padding: .6rem;
+
+}
+.paragraph{
+    color: rgb(97, 95, 88);
+    font-size: .9rem;
+}
+.bottomside{
+display: flex;
+    color: cornsilk !important;
+}
+.leftside{
+    background-color: rgb(30, 99, 126);
+flex: 0 0 50%;
+padding: 1rem;
+max-width: 50%;
+align-items: left;
+}
+.paragraph1{
+    color: white;
+    padding: 1.2rem;
+
+}
+.main,
+span{
+    padding: 1rem;
+
+}
+
+.btn{
+    padding: .9rem 1rem;
+    width: 80%;
+    background-color: burlywood ;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0 1rem 3rem black;
+    border-radius: 2px;
+    border:none;
+}
+
+.btn:active{
+    box-shadow: 0 1rem 2rem black;
+    width: 85%;
+    border:none;
+
+}
+.rightside{
+flex: 1;
+max-width: 50%;
+background-color: rgb(53, 114, 138);
+
+}
+b{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.rimain,
+.next{
+    padding: 1rem 2rem;
+    color: white;
+
+}
+.rimain{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:1160px){
+    .wapper{
+        min-height:35vh ;
+        max-width: 50%;   
+    }
+}
+@media only screen and (max-width:800px){
+    .wapper{
+        min-height:37vh ;
+        max-width: 55%;   
+    }
+}
+@media only screen and (max-width:700px){
+  .wapper{
+      max-width: 80%;
+  }    
+}
+@media only screen and (max-width:500px){
+    .wapper{
+        max-width: 60%;   
+    }
+    .join,
+    .text,
+    .paragraph{
+        font-size: 1.4rem;
+    }
+    .bottomside{
+        display: inline-block;
+    }
+    .rightside{
+ max-width:100% !important;
+ float: inherit;
+ 
+    }
+    .leftside{
+        max-width: 100% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
