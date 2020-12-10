@@ -1,10 +1,10 @@
 const projects = [
-  'card component',
-  'coming soon page',
-  'fylo data storage component',
-  'single price grid component',
-  'the secret of success',
-  'w3 interior design',
+  'card-component',
+  'coming-soon-page',
+  'fylo-data-storage-component',
+  'single-price-grid-component',
+  'the-secret-of-success',
+  'w3-interior-design',
 ];
 
 const list = document.getElementById('list');
