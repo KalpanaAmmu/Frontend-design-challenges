@@ -1,0 +1,13 @@
+mail=document.querySelector('#mail');
+document.querySelector('.ma').addEventListener('click',function(){
+document.querySelector('.msg1').classList.toggle('h1');
+document.querySelector('.msg').classList.toggle('h1');
+});
+document.querySelector('.c').addEventListener('click',function(e){
+    e.preventDefault();
+    document.querySelector('.navpart').style.display='none';
+});
+document.querySelector('.c1,.close').addEventListener('click',function(e){
+    e.preventDefault();
+    document.querySelector('.navpart').style.display='block';
+});
